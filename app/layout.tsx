@@ -1,7 +1,8 @@
 import './globals.css';
 import { Inter } from 'next/font/google';
+import { personalData } from '../data/page-data';
 import Sidebar from './component/Sidebar';
-import { personalData } from './data/page-data';
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <head />
       <body className={inter.className}>
-        <Sidebar />
+        <Sidebar data={personalData} />
         {children}
       </body>
     </html>
