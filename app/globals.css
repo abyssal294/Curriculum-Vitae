@@ -2,3 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    h1 {
+        @apply text-yellow text-4xl sm:text-6xl;
+    }
+    h2 {
+        @apply text-2xl
+    }
+    h3 {
+        @apply text-lg;
+    }
+    h4 {
+        @apply text-base;
+    }
+    p {
+        @apply text-base;
+    }
+
+    h1, h2, h3, h4 {
+        @apply font-display;
+    }
+    html {
+        @apply font-serif;
+    }
+    .contact-icons {
+        @apply text-2xl m-2;
+    }
+}

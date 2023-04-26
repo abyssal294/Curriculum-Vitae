@@ -19,9 +19,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head />
-      <body className={inter.className}>
+      <body className="flex flex-col sm:flex-row">
         <Sidebar data={personalData} />
-        {children}
+        <main className="grow-full w-full p16 basis-2/3 ml-auto"> {children}</main>
       </body>
     </html>
   )

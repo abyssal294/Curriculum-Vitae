@@ -1,8 +1,12 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
+import React from "react"
+import {aboutMe, skills, professionalData} from "../data/page-data";
+import AboutMe from './component/AboutMe'
 
-const inter = Inter({ subsets: ['latin'] })
-
-export default function Home() {
-  
+export default function Page() {
+  return (
+    <div>
+        <AboutMe data={aboutMe} />
+        Professional Experience
+    </div>
+  )
 }

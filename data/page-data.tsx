@@ -6,6 +6,11 @@ export const personalData = {
 	education: [
 		"Prva gimnazija Maribor (2010-2014)",
 		"Fakulteta za zdravstvene vede, Univerza v Mariboru (2016-2020)",
+		"The Complete Web Development Bootcamp",
+		"Typescript Course",
+		"Advanced JavaScript Course",
+		"Data Structures and Algorithms Course",
+		"Wordpress Custom Themes Course"
 	],
 	contactLinks: [
 		"mailto:emailto:bine.valo@gmail.com",
@@ -18,8 +23,8 @@ export const personalData = {
 export const aboutMe = {
 	title: "About Me",
 	body: [
-		"As a highly motivated and driven individual with a passion for making a positive impact, I have a unique blend of technical and interpersonal skills, thanks to my background in computer science. I am able to tackle complex problems with ease, and I never lose sight of my ultimate goal, even when facing challenges.",
-		"When I'm not working, I love hiking, reading, and spending time with my friends and family. I believe that my determination, can-do attitude, and hard work make me a true asset to any team.",
+		"As a highly motivated and driven individual with a passion for making a positive impact, I have a unique blend of technical and interpersonal skills, thanks to my background in emergency room nursing. I am able to tackle complex problems with ease, and I never lose sight of my ultimate goal, even when facing challenges.",
+		"When I'm not working, I love playing video games, lifting weights, and spending time with my friends and family. I believe that my determination, can-do attitude, and hard work make me a true asset to any team.",
 	],
 };
 
@@ -33,7 +38,7 @@ export const skills = {
 		{ icon: "⌛️", text: "Time management" },
 	],
 	hard: [
-		{ icon: "💻", text: "Python" },
+		{ icon: "💻", text: "JavaScript" },
 		{ icon: "ʦ", text: "TypeScript" },
 		{ icon: "🚀", text: "React" },
 		{ icon: "💾", text: "SQL" },
