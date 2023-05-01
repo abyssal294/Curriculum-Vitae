@@ -28,4 +28,13 @@
     .contact-icons {
         @apply text-2xl m-2;
     }
+    section {
+        @apply mb-10;
+    }
+    main h2 {
+        @apply uppercase text-black;
+    }
+    .btn {
+        @apply w-1/2 h-12 text-black font-display uppercase text-xl;
+    }
 }

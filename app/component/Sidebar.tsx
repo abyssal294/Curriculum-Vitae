@@ -1,5 +1,5 @@
 import Image from "next/image"
-import React from "react";
+import React, {useId} from "react";
 import {Envelope, Twitter, Linkedin, Github} from "../../icons/index";
 
 interface SidebarData {
@@ -11,6 +11,7 @@ interface SidebarData {
 
 const Sidebar = ({ data }: { data: SidebarData}) => {
     const {name, role, education, contactLinks} = data;
+    const id = useId();
     return (
     <div className="bg-black flex flex-col sm:h-screen content-between w-full h-auto  sm:justify-around sm:w-1/3 sm:fixed">
         <div className="text-white flex flex-col p-10 items-center">
@@ -25,7 +26,7 @@ const Sidebar = ({ data }: { data: SidebarData}) => {
             <h1 className="mb-2">{name}</h1>
             <h2 className="mb-8">{role}</h2>
             {education?.map((el, index) => (
-                <p className="mb-2" key={index}>{el}</p>
+                <p className="mb-2" key={"${id}_$index}"}>{el}</p>
             ))}
             <div className="text-white text-center mb-4 mt-4 sm:mt-8">
                 <h3 className="mb-2">CONTACT ME</h3>
