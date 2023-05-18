@@ -1,18 +1,39 @@
+"use client"
 import React, {useId} from "react";
 import Skills from "./Skills";
 
-const AboutMe = ({data} : {data: any}) => {
+
+type AboutMeProps = {
+    data: {
+      title: string;
+      body: string[];
+    };
+    skills: {
+      soft: {
+        icon: string;
+        text: string;
+      }[];
+      hard: {
+        icon: string;
+        text: string;
+      }[];
+    };
+  };
+
+const AboutMe = ({data, skills}: AboutMeProps) => {
     const{title, body} = data;
     const id = useId()
 
-    return (<section>
+    return (
+    <section>
         <h2 className="mb-8">{title}</h2>
         {body?.map((el: string, i: number) => (
-        <p key={"${id}_${i}"} className="mb-6">
+        <p key={`${id}_${i}`} className="mb-6">
             {el}
             </p>))}
-        <Skills />
-    </section>)
+        <Skills data={skills}  />
+    </section>
+    )
 }
 
 export default AboutMe;

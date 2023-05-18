@@ -29,12 +29,15 @@
         @apply text-2xl m-2;
     }
     section {
-        @apply mb-10;
+        @apply mb-10 p-10;
     }
     main h2 {
         @apply uppercase text-black;
     }
     .btn {
-        @apply w-1/2 h-12 text-black font-display uppercase text-xl;
+        @apply w-1/2 h-12 text-black font-display uppercase text-xl px-4 transition ease-in-out hover:text-yellow hover:bg-black duration-200;
+    }
+    .skill {
+        @apply bg-green-light text-lg py-2 px-4 w-fit rounded-md;
     }
 }

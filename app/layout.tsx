@@ -21,7 +21,9 @@ export default function RootLayout({
       <head />
       <body className="flex flex-col sm:flex-row">
         <Sidebar data={personalData} />
-        <main className="grow-full w-full p16 basis-2/3 ml-auto"> {children}</main>
+        <main className="grow-full p-8 w-full sm:p-16 basis-2/3 ml-auto"> 
+        {children}
+        </main>
       </body>
     </html>
   )
