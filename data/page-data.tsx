@@ -2,7 +2,7 @@
 
 export const personalData = {
 	name: "Bine Kosmač",
-	role: "Software Engineer",
+	role: "Razvijalec spletnih strani in aplikacij - začetnik",
 	education: [
 		"Prva gimnazija Maribor (2010-2014)",
 		"Fakulteta za zdravstvene vede, Univerza v Mariboru (2016-2020)",
@@ -21,39 +21,39 @@ export const personalData = {
 };
 
 export const aboutMe = {
-	title: "About Me",
+	title: "O MENI",
 	body: [
-		"As a highly motivated and driven individual with a passion for making a positive impact, I have a unique blend of technical and interpersonal skills, thanks to my background in emergency room nursing. I am able to tackle complex problems with ease, and I never lose sight of my ultimate goal, even when facing challenges.",
-		"When I'm not working, I love playing video games, lifting weights, and spending time with my friends and family. I believe that my determination, can-do attitude, and hard work make me a true asset to any team.",
+		"Kot usposobljen diplomirani zdravstvenik v urgentni dejavnosti si želim preiti v svet razvoja spletnih strani in programiranja zaradi veselja instrasti do le-tega, kot tudi zaradi želje po samoizpolnitvi. Izkušnje v zdravstveni negi so me osebnostno razvile, utrdile ter dvignile moje sposobnosti za multitasking, komunikacijo, prioritizacijo in delo pod pritiskom, kar verjamem, da bo neprecenljivo na moji novi karierni poti.",
+		"Veliko željo imam postati poklicni programer. Učenje sem pričel s spletnim bootcampom za razvoj spletnih strani, kjer sem se seznanil z HTML, CSS, SQL in noSQL bazami (največ MongoDB) in Javascript-om, okoljem jQuery, Node.js in React.js, učim pa se delati tudi s TypeScript-om in Next.js, s katerima sem tudi ustvaril ta življenjepis. Koda je dostopna na GitHub-u, povezava je pod 'kontakti.'",
+		"Programiranje mi je izjemno zanimivo, žal mi je, da se ga nisem lotil že prej. Voljan sem se naučiti karkoli, kar bo zahtevano, vključno z novimi framework-i, pa tudi novimi programskimi jeziki. Skozi poznavanje JavaScripta se učim tudi, kako programski jeziki delujejo pod površjem, zato mi bo učenje novih jezikov nekoliko olajšano."
 	],
 };
 
 export const skills = {
-	soft: [
-		{ icon: "👂🏼", text: "Active Listening" },
-		{ icon: "💬", text: "Effective Communication" },
-		{ icon: "👥", text: "Collaboration" },
-		{ icon: "⽓", text: "Teamwork" },
-		{ icon: "💡", text: "Creative Problem Solving" },
-		{ icon: "⌛️", text: "Time management" },
+	mehke: [
+		{ icon: "👂🏼", text: "Aktivno poslušanje" },
+		{ icon: "💬", text: "Učinkovita komunikacija" },
+		{ icon: "👥", text: "Sodelovanje" },
+		{ icon: "⽓", text: "'Teamwork'" },
+		{ icon: "💡", text: "Ustvarjalno reševanje težav" },
+		{ icon: "⌛️", text: "Časovno učinkovito načrtovanje" },
 	],
-	hard: [
+	trde: [
 		{ icon: "💻", text: "JavaScript" },
 		{ icon: "ʦ", text: "TypeScript" },
 		{ icon: "🚀", text: "React" },
 		{ icon: "💾", text: "SQL" },
 		{ icon: "💾", text: "noSQL" },
-		{ icon: "📈", text: "Data Structures and Algorithms" },
 	],
 };
 
 export const professionalData = {
-	title: "Professional Experience",
+	title: "Strokovne izkušnje",
 	experiences: [
 		{
-			role: "Emergency Room Registered Nurse, UKC Maribor (2020 - present)",
+			role: "Diplomirani zdravstvenik v urgentni dejavnosti, UKC Maribor (2020 - danes)",
 			description:
-				"Respond to medical emergencies, work in tandem with coworkers and doctors to provide care for patients, assess patient needs, administer intravenous/oral/intramuscular/subcutaneous therapy, start IV lines, draw blood, disinfect work area and equipment, clean wounds, test medical equipment, fill out paperwork.",
+				"Ugotavljanje potreb, načrtovanje, izvajanje in vrednotenje zdravstvene nege za vse življenjske aktivnosti; organizacija in sodelovanje pri izvajanju diagnostično terapevtskih posegov in izvajanje diagnostično terapevtskih posegov v okviru strokovne izobrazbe; zdravstveno vzgojno delo z bolniki in njihovimi svojci; obravnavanje življenjsko ogroženih bolnikov; dokumentiranje procesa zdravstvene nege in vodenje drugih potrebnih evidenc; sodelovanje z negovalnim in zdravniškim timom.",
 			current: true,
 		},
 	]

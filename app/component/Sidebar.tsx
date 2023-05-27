@@ -29,7 +29,7 @@ const Sidebar = ({ data }: { data: SidebarData}) => {
                 <p className="mb-2" key={"${id}_$index}"}>{el}</p>
             ))}
             <div className="text-white text-center mb-4 mt-4 sm:mt-8">
-                <h3 className="mb-2">CONTACT ME</h3>
+                <h3 className="mb-2">KONTAKTI</h3>
                 <div className="flex flex-row justify-center gap-2 ">
                     <a className="contact-icons" href={contactLinks?.[0]} aria-label={"twitter link"}><Envelope className={undefined} /></a>
                     <a className="contact-icons" href={contactLinks?.[1]} aria-label={"linkedin link"}><Twitter className={undefined} /></a>

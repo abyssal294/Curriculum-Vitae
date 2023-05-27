@@ -15,23 +15,23 @@ type SkillsProps = {
   };
 
 const Skills = ({data}: SkillsProps) => {
-    const [activeTab, setActiveTab] = useState("soft");
+    const [activeTab, setActiveTab] = useState("mehke");
 
     const setBg = (active: string) => {return activeTab === active ? "bg-yellow" : "bg-grey"}
 
-    const setTabsAlignment = (tab: string) => {return tab === "soft" ? "text-left rounded-l-md" : "text-right rounded-r-md"}
+    const setTabsAlignment = (tab: string) => {return tab === "mehke" ? "text-left rounded-l-md" : "text-right rounded-r-md"}
 
 
 
     const tabs = (<div className="flex">
-    {["soft", "hard"].map(el => ( 
+    {["mehke", "trde"].map(el => ( 
     <button 
     key={el}
     type="button" 
     className={`btn ${setBg(el)} ${setTabsAlignment(el)}`}
     onClick={() => setActiveTab(el)} 
     > 
-        {el + " "} Skills
+        {el + " "} veščine
         </button>))}
 </div>)
 
