@@ -29,7 +29,7 @@
         @apply text-2xl m-2;
     }
     section {
-        @apply mb-10 p-10;
+        @apply mb-10;
     }
     main h2 {
         @apply uppercase text-black;

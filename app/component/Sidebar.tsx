@@ -1,6 +1,6 @@
 import Image from "next/image"
 import React, {useId} from "react";
-import {Envelope, Twitter, Linkedin, Github} from "../../icons/index";
+import {Envelope, Twitter, Linkedin, Github, Vercel} from "../../icons/index";
 
 interface SidebarData {
     name: string;
@@ -26,15 +26,16 @@ const Sidebar = ({ data }: { data: SidebarData}) => {
             <h1 className="mb-2">{name}</h1>
             <h2 className="mb-8">{role}</h2>
             {education?.map((el, index) => (
-                <p className="mb-2" key={"${id}_$index}"}>{el}</p>
+                <p className="mb-2 text-justify" key={`${id}_${index}`}>{el}</p>
             ))}
             <div className="text-white text-center mb-4 mt-4 sm:mt-8">
-                <h3 className="mb-2">KONTAKTI</h3>
+                <h3 className="mb-2">KONTAKT</h3>
                 <div className="flex flex-row justify-center gap-2 ">
                     <a className="contact-icons" href={contactLinks?.[0]} aria-label={"twitter link"}><Envelope className={undefined} /></a>
                     <a className="contact-icons" href={contactLinks?.[1]} aria-label={"linkedin link"}><Twitter className={undefined} /></a>
                     <a className="contact-icons" href={contactLinks?.[2]} aria-label={"twitter link"}><Linkedin className={undefined} /></a>
                     <a className="contact-icons" href={contactLinks?.[3]} aria-label={"github link"}><Github className={undefined} /></a>
+                    <a className="contact-icons" href={contactLinks?.[4]} aria-label={"vercel link"}><Vercel className={undefined} /></a>
                 </div>
             </div>
         </div>

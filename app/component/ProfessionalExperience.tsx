@@ -23,7 +23,7 @@ const ProfessionalExperience = ({data}: professionalData) => {
                         <span className={`h-2 ${current ? "bg-green" : "bg-grey"}`} />
                             <div className="bg-grey-light p-6 drop-shadow-md">
                                 <h3>{role}</h3>
-                                <p>{description}</p>
+                                <p className="text-justify">{description}</p>
                             </div>
                     </div>
                 ))}

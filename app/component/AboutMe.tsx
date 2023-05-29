@@ -28,7 +28,7 @@ const AboutMe = ({data, skills}: AboutMeProps) => {
     <section>
         <h2 className="mb-8">{title}</h2>
         {body?.map((el: string, i: number) => (
-        <p key={`${id}_${i}`} className="mb-6">
+        <p key={`${id}_${i}`} className= "mb-6 text-lg text-justify">
             {el}
             </p>))}
         <Skills data={skills}  />
