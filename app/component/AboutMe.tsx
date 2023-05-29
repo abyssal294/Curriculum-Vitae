@@ -4,21 +4,26 @@ import Skills from "./Skills";
 
 
 type AboutMeProps = {
-    data: {
-      title: string;
-      body: string[];
-    };
-    skills: {
-      mehke: {
-        icon: string;
-        text: string;
-      }[];
-      trde: {
-        icon: string;
-        text: string;
-      }[];
-    };
+  data: {
+    title: string;
+    body: string[];
   };
+  skills: {
+    [key: string]: {
+      icon: string;
+      text: string;
+    }[];
+    mehke: {
+      icon: string;
+      text: string;
+    }[];
+    trde: {
+      icon: string;
+      text: string;
+    }[];
+  };
+};
+
 
 const AboutMe = ({data, skills}: AboutMeProps) => {
     const{title, body} = data;

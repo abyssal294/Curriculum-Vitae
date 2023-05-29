@@ -3,11 +3,11 @@ import React, {useState} from "react";
 
 type SkillsProps = {
   data: {
-    soft: {
+    mehke: {
       icon: string;
       text: string;
     }[];
-    hard: {
+    trde: {
       icon: string;
       text: string;
     }[];
