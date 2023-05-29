@@ -9,11 +9,11 @@ type AboutMeProps = {
       body: string[];
     };
     skills: {
-      soft: {
+      mehke: {
         icon: string;
         text: string;
       }[];
-      hard: {
+      trde: {
         icon: string;
         text: string;
       }[];
