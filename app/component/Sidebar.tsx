@@ -26,7 +26,7 @@ const Sidebar = ({ data }: { data: SidebarData}) => {
             <h1 className="mb-2">{name}</h1>
             <h2 className="mb-8">{role}</h2>
             {education?.map((el, index) => (
-                <p className="mb-2 text-justify" key={`${id}_${index}`}>{el}</p>
+                <p className="mb-2 text-center" key={`${id}_${index}`}>{el}</p>
             ))}
             <div className="text-white text-center mb-4 mt-4 sm:mt-8">
                 <h3 className="mb-2">KONTAKT</h3>
