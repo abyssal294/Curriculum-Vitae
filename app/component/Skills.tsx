@@ -2,17 +2,22 @@
 import React, {useState} from "react";
 
 type SkillsProps = {
-    data: {
-      soft: {
-        icon: string;
-        text: string;
-      }[];
-      hard: {
-        icon: string;
-        text: string;
-      }[];
-    };
+  data: {
+    soft: {
+      icon: string;
+      text: string;
+    }[];
+    hard: {
+      icon: string;
+      text: string;
+    }[];
+    [key: string]: {
+      icon: string;
+      text: string;
+    }[];
   };
+};
+
 
 const Skills = ({data}: SkillsProps) => {
     const [activeTab, setActiveTab] = useState("mehke");
