@@ -12,11 +12,12 @@ export const personalData = {
 		"Wordpress Custom Themes Course"
 	],
 	contactLinks: [
-		"mailto:emailto:bine.valo@gmail.com",
-		"https://twitter.com/blake_kosmac",
-		"www.linkedin.com/in/bine-kosmac",
+		"041915642",
+		"mailto:bine.valo@gmail.com",
+		"https://www.linkedin.com/in/bine-kosmac",
 		"https://github.com/abyssal294",
-		"https://notify-10pe3h4bn-abyssal294.vercel.app/"
+		"https://notify-app-phi.vercel.app/",
+		
 	],
 };
 
