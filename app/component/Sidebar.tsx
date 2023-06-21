@@ -28,7 +28,7 @@ const Sidebar = ({ data }: { data: SidebarData}) => {
                 alt="profile picture"
             />
             <h1 className="mb-2">{name}</h1>
-            <h2 className="mb-8 justify-center">{role}</h2>
+            <h2 className="mb-8 text-center">{role}</h2>
             {education?.map((el, index) => (
                 <p className="mb-2 text-center" key={`${id}_${index}`}>{el}</p>
             ))}
