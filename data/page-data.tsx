@@ -34,12 +34,12 @@ export const skills = {
 	mehke: [
 		{ icon: "👂🏼", text: "Aktivno poslušanje" },
 		{ icon: "💬", text: "Učinkovita komunikacija" },
-		{ icon: "👥", text: "Sodelovanje" },
-		{ icon: "⽓", text: "'Teamwork'" },
+		{ icon: "👥", text: "Timsko delo" },
 		{ icon: "💡", text: "Ustvarjalno reševanje težav" },
 		{ icon: "⌛️", text: "Časovno učinkovito načrtovanje" },
 	],
 	trde: [
+		{ icon: "📝", text: "Odlično znanje angleškega jezika"},
 		{ icon: "💻", text: "JavaScript" },
 		{ icon: "ʦ", text: "TypeScript" },
 		{ icon: "🚀", text: "React" },
